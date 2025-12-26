@@ -1,4 +1,4 @@
-package com.vijay.auth.entities;
+package com.vijay.auth.dtos;
 
 public enum Provider {
     LOCAL,GITHUB,GOOGLE,FACEBOOK

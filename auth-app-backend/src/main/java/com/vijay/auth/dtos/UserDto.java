@@ -1,8 +1,6 @@
 package com.vijay.auth.dtos;
 
-import com.vijay.auth.entities.Provider;
 import com.vijay.auth.entities.Role;
-import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.Instant;

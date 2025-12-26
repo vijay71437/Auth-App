@@ -1,7 +1,7 @@
 package com.vijay.auth.services.impl;
 
 import com.vijay.auth.dtos.UserDto;
-import com.vijay.auth.entities.Provider;
+import com.vijay.auth.dtos.Provider;
 import com.vijay.auth.entities.User;
 import com.vijay.auth.exceptions.ResourceNotFoundException;
 import com.vijay.auth.helpers.UserHelper;

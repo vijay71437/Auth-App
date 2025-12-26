@@ -1,4 +1,4 @@
-package com.vijay.auth.entities;
+package com.vijay.auth.dtos;
 
 import org.springframework.http.HttpStatus;
 
