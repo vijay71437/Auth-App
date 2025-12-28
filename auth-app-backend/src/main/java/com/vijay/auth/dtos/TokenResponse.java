@@ -7,7 +7,7 @@ public record TokenResponse(
         String tokenType,
         UserDto user
 ) {
-    public static  TokenResponse of(String accessToken,String refreshToken,long expriresIn,String tokenType,UserDto user){
+    public static  TokenResponse of(String accessToken, String refreshToken, long expriresIn, UserDto user){
         return new TokenResponse(accessToken,refreshToken,expriresIn,"Bearer",user);
     }
 }
